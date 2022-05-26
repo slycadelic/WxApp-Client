@@ -18,7 +18,7 @@ const NavBar = (props) => {
     const username = JSON.parse(localStorage.getItem('user'));
 
     const location = useLocation();
-    console.log(props);
+    // console.log(props);
 
 
     const navigate = useNavigate();
